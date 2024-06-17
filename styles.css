@@ -1,0 +1,59 @@
+html * {
+    margin: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right bottom,
+            #FFD700, #FF4500, #4169E1, #32CD32, #C0C0C0);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding: 50px 10%;
+}
+
+#main {
+    margin: 0 auto;
+    padding: 5%;
+    background: linear-gradient(65deg,
+            #ffff,
+            #aaab,
+            #5557,
+            #0003,
+            #5557,
+            #aaab,
+            #ffff);
+    border-radius: 10px;
+}
+
+#title {
+    text-align: center;
+}
+
+#img-div {
+    padding: 3%;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto 3%;
+    border-radius: 10%;
+
+}
+
+#img-caption,
+#tribute-info {
+    width: 220px;
+    text-align: justify;
+    font-size: unset;
+    margin: auto;
+
+}
+
+#tribute-info {
+    width: unset;
+    font-size: 17px;
+}
+
+#tribute-link {
+    text-decoration: none;
+}
